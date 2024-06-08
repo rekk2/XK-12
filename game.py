@@ -38,9 +38,6 @@ image_path = os.path.join(application_path, 'arrow.png')
 arrow_image = pygame.image.load(image_path).convert_alpha()
 arrow_image = pygame.transform.scale(arrow_image, (100, 100))
 
-# The rest of your code remains the same...
-
-
 def find_device(vid, pid):
     for device_info in hid.enumerate():
         if device_info['vendor_id'] == vid and device_info['product_id'] == pid:
