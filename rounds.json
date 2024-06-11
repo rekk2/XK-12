@@ -1,0 +1,16 @@
+{
+  "rounds": [
+    {
+      "number": 1,
+      "enemy_color": [255, 255, 0],
+      "enemy_interactive": false,
+      "description": "First round, enemies are non-interactive and harmless."
+    },
+    {
+      "number": 2,
+      "enemy_color": [255, 0, 0],
+      "enemy_interactive": true,
+      "description": "Second round, enemies become aggressive."
+    }
+  ]
+}
